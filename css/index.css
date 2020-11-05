@@ -1,0 +1,132 @@
+
+body {
+	background: #eeeded;
+	font-family: 'Poppins', sans-serif;
+	/*background-image:url(/preguntas/css/img/pregunta.jpg);*/
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+
+.card {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.2s ease-in-out;
+	box-sizing: border-box;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#FFF;
+}
+
+.card:hover {
+	box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.card > .card-inner {
+	padding:10px;
+}
+.card .header h2, h3 {
+	margin-bottom: 0px;
+	margin-top:0px;
+}
+.card .header {
+	margin-bottom:5px;
+}
+.card img{
+	width:100%;
+}
+
+#nav{
+	background-color:white;
+	position:fixed;
+	z-index:100;
+	box-shadow: 1px 1px 6px 1px   rgba(0, 0, 0, 0.3);
+}
+h3{
+	width:100%;
+	font-size:25px;
+	font-family:time;
+	color:black ;
+	text-align: center;
+}
+footer{
+	background-color:rgba(229, 232, 232 );
+	box-shadow: 1px 1px 6px 1px   rgba(0, 0, 0, 0.3);
+}
+/* estilo de barra de iconos*/
+.social-bar{
+	position:fixed;
+	right:0;
+	top:35%;
+	font-size:1.5rem;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+	z-index:100;
+}
+.icon{
+	color:white;
+	text-decoration: none;
+	padding:.7rem;
+	display:flex;
+	transition: all .5s;
+}
+.icon-glassdoor{
+	background:#FBFCFC ;
+}
+.icon-facebook{
+	background:#FBFCFC ;
+}
+.icon-messenger{
+	background:#FBFCFC ;
+}
+
+.icon:first-child{
+	border-radius: 1rem 0 0 0;
+	-webkit-border-radius: 1rem 0 0 0;
+	-moz-border-radius: 1rem 0 0 0;
+	-ms-border-radius: 1rem 0 0 0;
+	-o-border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+	border-radius: 0 0 0 1rem;
+	-webkit-border-radius: 0 0 0 1rem;
+	-moz-border-radius: 0 0 0 1rem;
+	-ms-border-radius: 0 0 0 1rem;
+	-o-border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+	box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+	color:white;
+	border-radius: 1rem 0 0 1rem;
+	-webkit-border-radius: 1rem 0 0 1rem;
+	-moz-border-radius: 1rem 0 0 1rem;
+	-ms-border-radius: 1rem 0 0 1rem;
+	-o-border-radius: 1rem 0 0 1rem;
+}
+#modal{
+	background-color: salmon;
+	border-radius:30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-ms-border-radius:30px;
+	-o-border-radius:30px;
+}
+.sali:hover {
+	display: inline-block;
+	animation: swing; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 2s; /* don't forget to set a duration! */
+}
+.pl{
+	border:solid red;
+	display: inline-block; 
+	animation:rotateInDownLeft; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 1s; /* don't forget to set a duration! */
+
+}
+@media only screen and (max-width: 768px) {
+.h3{
+    font-size: 18px;
+}
+}
+
